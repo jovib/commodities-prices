@@ -55,7 +55,6 @@ class GetSilver extends Command
     {
         $getjson = new Client(['base_uri'  => 'https://www.quandl.com/api/v3/datasets/']);
         $response = $getjson->request('GET', 'LBMA/SILVER.json?api_key=UcX5xRwzEpUfqn7FQWbj'.$this->getDateRangeString(), [
-            'debug'=>true,
             'verify'=> false
         ]);
 
