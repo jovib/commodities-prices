@@ -6,7 +6,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">Commodities Prices</a>
+                <a class="navbar-brand" href="/">OnNETspace</a>
             </div>
             <!-- /.navbar-header -->
 
