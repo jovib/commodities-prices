@@ -11,7 +11,7 @@
 <meta http-equiv="pragma" content="no-cache" />
 
 
-<title>Commodities Prices</title>
+<title>OnNETspace</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
