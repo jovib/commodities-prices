@@ -71,7 +71,7 @@ class GetGas extends Command
 
         $set_arr = array_map(null,$Date,$Value);
 
-        $writer = Writer::createFromFileObject(new \SplFileObject(storage_path('commodities\gas.csv'),'w'));
+        $writer = Writer::createFromFileObject(new \SplFileObject(storage_path('commodities/gas.csv'),'w'));
         $writer->insertOne(['Value','Date']);
         $writer->insertAll($set_arr);
 
